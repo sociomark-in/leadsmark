@@ -14,6 +14,7 @@ License: For each use you must have a valid license purchased only from above li
 </head>
 
 <body>
+	<?php $this->load->view('components/theme/widgets/_browser_notification'); ?>
 	<div class="main-wrapper">
 
 		<!-- partial:partials/_sidebar.html -->

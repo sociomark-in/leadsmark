@@ -9,7 +9,7 @@
                                 <a href="#" class="noble-ui-logo d-block mb-2"><img src="<?= base_url('assets/logo.png') ?>" alt="" width="160"></a>
                                 <h5 class="text-muted fw-normal mb-4">Welcome back! Log in to your account.</h5>
                             </div>
-                            <?= form_open('api-auth-login', ['class' => "forms-sample"]) ?>
+                            <?= form_open('api/v2/auth/login', ['class' => "forms-sample"]) ?>
                             <div class="mb-3">
                                 <label for="userID" class="form-label">User ID / Email Address</label>
                                 <input type="text" class="form-control" name="username" id="userID" placeholder="Username or Email">
